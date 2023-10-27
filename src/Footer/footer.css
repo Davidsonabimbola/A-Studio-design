@@ -1,0 +1,97 @@
+.topFooterDiv{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 50px;
+}
+
+
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secondDivFooter{
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+}
+
+.whatWeDo{
+    display: flex;
+    flex-direction: column;
+}
+
+.divOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.textpad{
+    /* padding-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: -100px;
+}
+
+.socialMedia{
+    padding-top:10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.socialMedia:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .mainDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .topFooterDiv{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+    .secondDivFooter{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .mainDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .topFooterDiv{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+
+    .secondDivFooter{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+}

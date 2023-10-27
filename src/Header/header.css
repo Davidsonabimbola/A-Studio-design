@@ -1,0 +1,422 @@
+.oneHeader{
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.hamburger-button{
+   display: none;  
+  /* display: flex;
+  align-self: center;
+  width: 70px;
+  height: 30px;
+  background-color: cyan;
+  border-radius: 20px;
+  margin-left: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; */
+  
+}
+
+.bar{
+  /* display: none; */
+   width:16px;
+  height: 3px;
+  background-color: black;
+  margin:1px 0;
+  transition: transform 0.2s; 
+} 
+/* .headerNav{
+    display: flex; 
+    gap: 50px;
+}
+
+.backgroundDiv{
+    background-color: blue;
+}
+
+.linkSection{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.list{
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .removeLine{
+    text-decoration: none;
+  }
+
+  .theHeaderList{
+    color:  black solid;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 500px;
+  }
+
+  .mobileNav{
+    
+    width: 80px;
+    background-color:blue;
+    height: 100vh;
+    display: flex;
+     flex-direction: column;  
+     justify-content:center ;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -400px;
+    gap: 10px;
+    list-style-type: none;
+    list-style: none;
+    padding: 16px;
+    transition: transform 0.5s;
+    color: white;
+    
+
+  }
+
+  .mobileNav a{
+    
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    list-style: none; 
+  }
+  .mobileNav a:hover{
+    text-decoration: underline;
+    color:black
+  }
+
+   .mobileNav.openDrawer{
+    height: auto; 
+     transform: translateX(-450px);  
+  } 
+
+  @media only screen and (max-width: 768px) {
+
+
+    .oneHeader{
+      display: flex;
+      background-color: white;
+      justify-content: space-around;
+      margin-top: 10px;
+      width: auto;
+      padding-right: 50px;
+    }
+    
+    .theHeaderList{
+      display: none;
+      /* color:  black solid;
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      list-style-type: none;
+      gap: 50px;
+      margin-left: 500px; */
+  
+  
+    }
+    .hamburger-button{
+      display: flex;
+      align-self: center;
+      width: 70px;
+      height: 30px;
+      background-color:mintcream;
+      border-radius: 20px;
+      /* margin-left: 1000px; */
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      transform: translateX(500%); 
+       /* right: 0;  */
+      z-index: 4;
+       margin-top: -25px; 
+       border: 4px solid mintcream;
+       
+      
+    }
+      
+
+      .hamburger-button:hover{
+        cursor: pointer;
+      }
+      
+   
+   .open.bar{
+    width:16px;
+    height: 2px;
+    background-color: black;
+    margin:1px 0;
+    transition: transform 0.2s;
+    
+}
+
+.open.bar:hover{
+  cursor: pointer;
+}
+    
+    .open .bar:nth-child(1){
+        animation: flipBar1 1s;
+        animation-fill-mode: forwards;
+    }
+    
+    .open .bar:nth-child(2){
+        animation: fadeBar2 1s;
+        animation-fill-mode: forwards;
+    }
+
+    .open .bar:nth-child(3){
+        animation: flipBar2 1s;
+        animation-fill-mode: forwards;
+    }
+
+    
+
+    /* .mobileNav a{
+      text-decoration: none;
+      color: black;
+      list-style-type: none;
+      list-style: none;
+    }
+    .mobileNav a:hover{
+      text-decoration: underline;
+      color:black
+    }
+
+    .open.mobileNav.drawer{
+      transform: translateY(-50px);
+    }   */
+  
+
+  }
+
+    /* .mobileNav{
+      width: 500px;
+      background-color:blue;
+      height: 20vh;
+      display: flex;
+      
+      justify-content:center ;
+      align-items: center;
+      position: fixed;
+      z-index: 2;
+      top: -300px;
+      gap: 10px;
+      list-style-type: none;
+      list-style: none;
+      padding: 16px;
+      transition: transform 0.5s ;
+  
+    } */
+  
+    /* .mobileNav a{
+      text-decoration: none;
+      color: black;
+      list-style-type: none;
+      list-style: none;
+    }
+    .mobileNav a:hover{
+      text-decoration: underline;
+      color:black
+    }
+  
+    .openDrawer a{
+      transform: translateY(-300px);
+    }
+  
+  } */
+
+  @keyframes fadeBar2{
+    from{
+        transform: scaleX(1);
+        opacity:1;
+    }
+    to {
+        transform: scaleX(0);  
+        /* originally scaleX(0) */
+        opacity: 0;
+    }
+ }
+
+ @keyframes flipBar1{
+    from{
+        transform: rotate(0);
+        
+    }
+    to {
+        transform: rotate(45deg) translate(4px, 10px);
+        
+    }
+ }
+
+
+ @keyframes flipBar2{
+    from{
+        transform: rotate(0);
+        
+    }
+    to {
+        transform: rotate(-45deg) translate(4px, -10px);
+        
+    }
+ }
+ 
+
+
+ @media only screen and (max-width: 640px) {
+
+  .oneHeader{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: auto;
+    padding-right: 50px;
+  }
+    
+  .theHeaderList{
+    display: none;
+    /* color:  black solid;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 500px; */
+
+
+  }
+  .hamburger-button{
+    display: flex;
+    align-self: center;
+    width: 70px;
+    height: 30px;
+    background-color:mintcream;
+    border-radius: 20px;
+    margin-left: 120px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    transform: translateX(100%);
+    
+    /* box-shadow: 50px; */
+    
+ }
+ .open.bar{
+  width:16px;
+  height: 2px;
+  background-color: black;
+  margin:1px 0;
+  transition: transform 0.2s;
+  
+
+}
+  
+  .open .bar:nth-child(1){
+      animation: flipBar1 1s;
+      animation-fill-mode: forwards;
+  }
+  
+  .open .bar:nth-child(2){
+      animation: fadeBar2 1s;
+      animation-fill-mode: forwards;
+  }
+
+  .open .bar:nth-child(3){
+      animation: flipBar2 1s;
+      animation-fill-mode: forwards;
+  }
+}
+  /* .mobileNav{
+    width: 500px;
+    background-color:blue;
+    height: 20vh;
+    display: flex;
+    
+    justify-content:center ;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: -300px;
+    gap: 10px;
+    list-style-type: none;
+    list-style: none;
+    padding: 16px;
+    transition: transform 0.5s ;
+
+  } */
+
+  /* .mobileNav a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    list-style: none;
+  }
+  .mobileNav a:hover{
+    text-decoration: underline;
+    color:black
+  }
+
+  .openDrawer a{
+    transform: translateY(-300px);
+  }
+
+} */
+
+@keyframes fadeBar2{
+  from{
+      transform: scaleX(1);
+      opacity:1;
+  }
+  to {
+      transform: scaleX(0);  
+      /* originally scaleX(0) */
+      opacity: 0;
+  }
+}
+
+@keyframes flipBar1{
+  from{
+      transform: rotate(0);
+      
+  }
+  to {
+      transform: rotate(45deg) translate(4px, 10px);
+      
+  }
+}
+
+
+@keyframes flipBar2{
+  from{
+      transform: rotate(0);
+      
+  }
+  to {
+      transform: rotate(-45deg) translate(4px, -10px);
+      
+  }
+}

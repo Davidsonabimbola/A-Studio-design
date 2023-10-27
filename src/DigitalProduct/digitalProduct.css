@@ -1,0 +1,142 @@
+.topDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    flex-wrap: wrap;
+/* background-color: blue;  */
+
+}
+
+.firstDiv{
+    display: flex;
+    padding-top: 50px;
+    /* background-color: blue; */
+    transform: translateX(-60px);
+    justify-content: space-between;
+}
+
+.theText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+
+}
+
+.header{
+    font-size: 40px;
+    font-weight:600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.textParagraph{
+    text-align: start;
+    display: flex;
+    /* font-size: 20px; */
+}
+
+
+/* textAlign:'start' */
+
+@media only screen and (max-width: 768px) {
+    .topDiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+        flex-direction: column;
+    }
+
+    .firstDiv{
+        display: flex;
+        padding-top: 50px;
+        /* background-color: blue; */
+        transform: translateX(-60px);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .textParagraph{
+        text-align: start;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        margin-left: -75px;
+    }
+
+    .theText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    
+    }
+
+    .header{
+        font-size: 40px;
+        font-weight:600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+}
+
+.digitalImage{
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+    .topDiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+        flex-direction: column;
+    }
+
+    .firstDiv{
+        display: flex;
+        padding-top: 50px;
+        /* background-color: blue; */
+        transform: translateX(-60px);
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .textParagraph{
+        text-align: start;
+        font-size: 14px;
+        display: flex;
+        margin-left: -75px;
+        justify-content: center;
+        
+    }
+
+    .theText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    
+    }
+
+    .header{
+        font-size: 40px;
+        font-weight:600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.digitalImage{
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+}
+
+

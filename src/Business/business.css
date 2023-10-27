@@ -1,0 +1,116 @@
+.topBusinessDiv{
+    display: flex;
+    margin-top: 70px;
+    position: relative;
+    padding-top:200px ;
+    flex-wrap: wrap;
+
+}
+
+/* display:'flex', marginTop:'70px', position:'relative', paddingTop:'200px' */
+.header{
+    font-size: 40px;
+    font-weight:600px;
+    
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left: 60px;
+    white-space: nowrap;
+    z-index: 1;
+    
+}
+
+.underLayBanner{
+    width: 1200px;
+    height: 500px;
+    background-color: lightcyan;
+    border-top-left-radius: 150px;
+    position: absolute;
+    z-index: 0;
+    transform: translateX(370px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cardsDiv{
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "c d";
+    column-gap: 20px;
+    row-gap: 20px;
+    z-index: 1;
+}
+
+.cards{
+  width: 250px;  
+  height: 300px;
+  background-color:mintcream;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.first{
+    grid-area: a;
+}
+
+.second{
+    grid-area: b;
+}
+
+.third{
+    grid-area: c;
+}
+
+.fourth{
+    grid-area: d;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardsDiv{
+        display: grid;
+        grid-template-areas: 
+        "a"
+        "b" 
+        "c"
+        "d";
+        column-gap: 20px;
+        row-gap: 20px;
+        z-index: 1;
+}
+
+
+.first{
+    grid-area: a;
+}
+
+.second{
+    grid-area: b;
+}
+
+.third{
+    grid-area: c;
+}
+
+.fourth{
+    grid-area: d;
+}
+
+.topBusinessDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    position: relative;
+    padding-top:200px ;
+
+}
+}
