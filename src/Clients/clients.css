@@ -1,6 +1,8 @@
-.header{
+.hed{
     font-size: 40px;
     font-weight:600px;
+    text-align: center;
+    margin-bottom: 2px;
     
 }
 
@@ -38,6 +40,11 @@
     gap: 80px
 }
 
+.clientParagraph{
+    text-align: start;
+    display: flex;
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -51,12 +58,17 @@
         
     }
 
-    .header{
+    .hed{
         font-size: 40px;
         font-weight:600px;
         display: flex;
         justify-content: center;
         
+    }
+
+    .clientParagraph{
+        text-align: center;
+        white-space: nowrap;
     }
      /* .contents{
         display: flex;
@@ -71,7 +83,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        margin-left: -30px;
+        margin-left: -35px;
+        width: 100px;
+        gap: 40px;
+        margin-top: -10px;
     }
     .clint{
         flex-direction: column;
@@ -90,7 +105,7 @@
         
     }
 
-    .header{
+    .hed{
         font-size: 40px;
         font-weight:600px;
         display: flex;
@@ -110,10 +125,18 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        margin-left: -30px;
+        margin-left: -35px;
+        width: 100px;
+        gap: 40px;
+        margin-top: -10px;
     }
 
     .clint{
         flex-direction: column;
+    }
+
+    .clientParagraph{
+        text-align: center;
+        white-space: nowrap;
     }
 }

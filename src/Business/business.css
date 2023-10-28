@@ -7,6 +7,10 @@
 
 }
 
+.businessParag{
+    text-align: start;
+}
+
 /* display:'flex', marginTop:'70px', position:'relative', paddingTop:'200px' */
 .header{
     font-size: 40px;
@@ -108,9 +112,37 @@
 .topBusinessDiv{
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: -140px;
     position: relative;
     padding-top:200px ;
 
 }
+.underLayBanner{
+    display: none;
+}
+
+.businessParag{
+    text-align: center;
+    margin-left: -50px;
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+    .topBusinessDiv{
+        display: flex;
+        flex-direction: column;
+        margin-top: -140px;
+        position: relative;
+        padding-top:200px ;
+    }
+
+    .underLayBanner{
+        display: none;
+    }
+
+    .businessParag{
+        text-align: center;
+        margin-left: -50px;
+    }
 }

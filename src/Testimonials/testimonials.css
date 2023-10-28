@@ -3,7 +3,9 @@
     font-weight:400px;
     
 }
-
+.matthew{
+    text-align: start;
+}
 .testimonialHeader{
     display: flex;
     justify-content: center;
@@ -139,7 +141,7 @@
         padding-right: 60px;
     }
 
-    .header{
+    .head{
         font-size: 20px;
         font-weight:400px;
         display: flex;
@@ -154,6 +156,20 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .imageBlock{
+        margin-left: -70px;
+    }
+
+    .matthew{
+        text-align: center;
+    }
+
+    .mTex{
+        text-align: start;
+        font-size: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -165,7 +181,7 @@
         padding-right: 60px;
     }
 
-    .header{
+    .head{
         font-size: 20px;
         font-weight:400px;
         display: flex;
@@ -179,5 +195,18 @@
         justify-content: center;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .imageBlock{
+        margin-left: -70px;
+    }
+
+    .matthew{
+        text-align: center;
+    }
+
+    .mTex{
+        text-align: start;
+        font-size: 10px;
     }
 }

@@ -23,11 +23,12 @@
 
 }
 
-.header{
+.hea{
     font-size: 40px;
     font-weight:600px;
     display: flex;
     flex-wrap: wrap;
+    text-align: start;
     
 }
 .textParagraph{
@@ -43,7 +44,7 @@
     .topDiv{
         display: flex;
         justify-content: center;
-        margin-top: 300px;
+        margin-top: 10px;
         flex-direction: column;
     }
 
@@ -58,10 +59,11 @@
 
     .textParagraph{
         text-align: start;
-        font-size: 12px;
+        font-size: 10px;
         display: flex;
         justify-content: center;
-        margin-left: -75px;
+        margin-left: -190px;
+        flex-wrap: wrap;
     }
 
     .theText{
@@ -73,12 +75,13 @@
     
     }
 
-    .header{
-        font-size: 40px;
+    .hea{
+        font-size: 30px;
         font-weight:600px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: -150px;
     
 }
 
@@ -93,7 +96,7 @@
     .topDiv{
         display: flex;
         justify-content: center;
-        margin-top: 300px;
+        margin-top: 10px;
         flex-direction: column;
     }
 
@@ -108,10 +111,11 @@
 
     .textParagraph{
         text-align: start;
-        font-size: 14px;
+        font-size: 10px;
         display: flex;
-        margin-left: -75px;
+        margin-left: -190px;
         justify-content: center;
+        flex-wrap: wrap;
         
     }
 
@@ -124,12 +128,13 @@
     
     }
 
-    .header{
-        font-size: 40px;
+    .hea{
+        font-size: 30px;
         font-weight:600px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-left: -150px;
 }
 
 .digitalImage{

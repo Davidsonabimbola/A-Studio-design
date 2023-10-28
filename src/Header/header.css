@@ -154,6 +154,7 @@ padding: 0;
       z-index: 4;
        margin-top: -25px; 
        border: 4px solid mintcream;
+       margin-left: -20px;
        
       
     }
@@ -321,6 +322,7 @@ padding: 0;
     align-items: center;
     gap: 5px;
     transform: translateX(100%);
+    margin-left: -20px;
     
     /* box-shadow: 50px; */
     

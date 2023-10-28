@@ -13,7 +13,7 @@ const Hero = () => {
      {/* <div className='topDiv'> */}
 
 <div className='banner'>
-    <h2 className='header' style={{textAlign:'start'}}>A Digital Product Agency</h2>
+    <h2 className='her' style={{textAlign:'start'}}>A Digital Product Agency</h2>
     <p className='theParagraph'> Leading digital agency with solid design and development<br></br>
     expertise. We build readymade website, mobile applications,<br></br>
     and elaborate online business services.

@@ -6,12 +6,12 @@ const Clients = () => {
 <div className='banner'>
         <div
         style={{display:'flex', flexDirection:'column'}}>
-             <h1 className='header' style={{textAlign:'start',marginBottom:'2px'}}>Our Client</h1>
+             <h1 className='hed'>Our Client</h1>
 
              <div className='clint'>
 
                 <div>
-                <p style={{textAlign:'start'}}>Several selected clients, who already<br></br>
+                <p className='clientParagraph'>Several selected clients, who already<br></br>
             believe in our service</p>
                 </div>
 <div className='contents'>

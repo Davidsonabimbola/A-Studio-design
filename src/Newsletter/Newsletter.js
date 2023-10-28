@@ -22,8 +22,8 @@ const Newsletter = () => {
 <div className='topOfNewsletter' >
     <div className='topDivNews'>
     <div className='newsletter'>
-        <h2>Subscribe Newsletter</h2>
-        <p style={{marginTop:'-10px'}}>I will update good news and promotion service not spam</p>
+        <h2 className='subNew'>Subscribe Newsletter</h2>
+        <p className='subPar'>I will update good news and promotion service not spam</p>
     </div>
 
     <div className='secondDiv'>

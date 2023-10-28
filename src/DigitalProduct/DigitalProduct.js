@@ -10,7 +10,9 @@ const DigitalProduct = () => {
         </div>
 
         <div className='theText'>
-            <h2 className='header' style={{textAlign:'start'}}>Great Digital Product<br></br>
+            <h2 className='hea' 
+            // style={{textAlign:'start'}}
+            >Great Digital Product<br></br>
             Agency since 2016</h2>
 
             <p className='textParagraph'>Our Business Plan is a written document describing a company's core<br></br>

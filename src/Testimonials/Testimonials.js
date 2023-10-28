@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div className='testimonialHeader'>
 
-        <div className='header'>
+        <div className='head'>
             <h2>What our happy client say</h2>
         </div>
 
@@ -15,8 +15,8 @@ const Testimonials = () => {
             </div>
 
             <div style={{display:'flex', flexDirection:'column', whiteSpace:'nowrap'}}>
-                <h4 style={{textAlign:'start'}}>Matthew Paul</h4>
-                <p style={{textAlign:'start'}}>Perfect very good job! Thank you for the amazing<br></br>
+                <h4 className='matthew'>Matthew Paul</h4>
+                <p className='mTex'>Perfect very good job! Thank you for the amazing<br></br>
                 design and work. Really impressed with the high quality<br></br>
                 and quick turnaround time. Highly recommend</p>
                 </div>

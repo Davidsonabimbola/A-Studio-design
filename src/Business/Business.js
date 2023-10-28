@@ -9,7 +9,7 @@ const Business = () => {
              your Business?</h1>
 
              <div>
-                <p style={{textAlign:'start'}}>We build readymade websites, mobile applications,<br></br>
+                <p className='businessParag'>We build readymade websites, mobile applications,<br></br>
             and elaborate online business services</p>
                 </div>
                 </div>
